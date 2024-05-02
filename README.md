@@ -1,16 +1,16 @@
-### Hi there 👋
+<h1 align="center">:wave: Hi, I'm Furglitch</h1>
 
-<!--
-**Furglitch/Furglitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<h3>  :computer: GitHub Profile Stats </h3>
+<br/>
+<p align="center">
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Furglitch's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=nord" height="192px"/></a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Furglitch&langs_count=10&show_icons=true&locale=en&layout=compact&theme=nord" alt="Furglitch" height="192px"/>
+<br/>
+<!-- <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level. -->
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+<br/>
+<h3>  :trophy: Git profile Trophies</h3>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Furglitch&layout=compact&theme=nord" alt="Furglitch" /></a> </p>
