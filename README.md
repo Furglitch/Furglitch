@@ -1,25 +1,63 @@
-# :wave: Hi, I'm Furglitch
+```json
 
-## :star2: Featured Projects
+{
+  "About Me": {
+    "Name": "Sam Songer",
+    "Username": "furglitch",
+    "Age": 24,
+    "Occupation": "Consumer Tech Repair",
+    "Location": "United States",
+  },
 
-- [Mod Organizer Separator Generator](https://github.com/Furglitch/ModOrganizer-SeparatorGenerator): A tool for creating separators for categorization within Mod Organizer 2
+  "Current Projects": {
+    "Personal": [
+      "Learning Python",
+      "Building a Home Server",
+      "Learning Soldering"
+    ],
+    "Professional": [
+      "Repairing Household Tech",
+      "Building Custom PCs"
+    ]
+  },
 
-## :hammer_and_wrench: Skills and Technologies
+  "Tech Stuff": {
+    "Languages": {
+      "Novice": [
+        "Python", "Java"
+      ],
+      "Intermediate": [],
+      "Expert": []
+    },
+    "Tools": {
+      "IDE": "VSCode",
+      "Containers": "Docker",
+      "Version Control": "Git"
+    },
+    "Operating Systems": {
+      "Main": "Windows 11",
+      "Server": [
+        "ProxMoxVE", "Debian 12", "Windows Server 2022"
+      ]
+    }
+  },
 
-I'm still learning, so consider everything below 'in progress'
-- **Languages**: Python, Java, Powershell
-- **Tools**: Git, Docker
+  "Hobbies": [
+    "Gaming",
+    "Tinkering with Tech",
+    "Reading",
+    "Writing"
+  ],
 
-## :computer: GitHub Profile Stats
+  "Rubber Ducks": [
+    "T-51 Power Armor", "Alduin"
+  ]
+}
+```
+<br>
+<div align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=nord" alt="Furglitch's GitHub Stats" height="192px"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furglitch&hide=html,tex,batchfile&theme=nord&langs_count=3" height="192px"/></div>
+<br/>
+<br/>
+<br/>
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Furglitch's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=nord"/></a>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Furglitch&langs_count=10&show_icons=true&locale=en&layout=compact&theme=nord" alt="Furglitch" height="192px"/>
-</p>
-
-## :trophy: GitHub Profile Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Furglitch&layout=compact&theme=nord" alt="Furglitch" /></a>
-</p>
