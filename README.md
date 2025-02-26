@@ -1,5 +1,4 @@
 ```json
-
 {
   "About Me": {
     "Name": "Sam Songer",
@@ -35,7 +34,9 @@
       "Version Control": "Git"
     },
     "Operating Systems": {
-      "Main": "Windows 11",
+      "Main": [
+        "Windows 11", "ArchLinux"
+      ],
       "Server": [
         "ProxMoxVE", "Debian 12", "Windows Server 2022"
       ]
