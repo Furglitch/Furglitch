@@ -12,7 +12,6 @@
     "Personal": [
       "Learning Python",
       "Building a Home Server",
-      "Learning Soldering"
     ],
     "Professional": []
   },
@@ -20,7 +19,7 @@
   "Tech Stuff": {
     "Languages": {
       "Novice": [
-        "Python", "Java"
+        "Python", "Java", "Bash"
       ],
       "Intermediate": [],
       "Expert": []
@@ -32,7 +31,7 @@
     },
     "Operating Systems": {
       "Main": [
-        "Windows 11", "ArchLinux"
+        "ArchLinux"
       ],
       "Server": [
         "ProxMoxVE", "Debian 12", "Windows Server 2022"
