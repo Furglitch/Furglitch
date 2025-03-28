@@ -4,7 +4,7 @@
     "Name": "Sam Songer",
     "Username": "furglitch",
     "Age": 24,
-    "Occupation": "Consumer Tech Repair",
+    "Occupation": "",
     "Location": "United States",
   },
 
@@ -14,10 +14,7 @@
       "Building a Home Server",
       "Learning Soldering"
     ],
-    "Professional": [
-      "Repairing Household Tech",
-      "Building Custom PCs"
-    ]
+    "Professional": []
   },
 
   "Tech Stuff": {
