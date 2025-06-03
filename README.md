@@ -52,8 +52,8 @@
 }
 ```
 <br>
-<div align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=nord" alt="Furglitch's GitHub Stats" height="192px"/>
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furglitch&hide=html,tex,batchfile&theme=nord&langs_count=3" height="192px"/></div>
+<div align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha" alt="Furglitch's GitHub Stats" height="192px"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furglitch&hide=html,tex,batchfile&theme=catppuccin_mocha&langs_count=3" height="192px"/></div>
 <br/>
 <br/>
 <br/>
