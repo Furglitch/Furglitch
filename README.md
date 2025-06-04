@@ -1,7 +1,6 @@
 <p align="center"><img src="header.png" alt="Hi! I'm Sam, aka Furglitch (there's supposed to be a picture here)"></p>
 <div>
 
-
 <h2> / about me / </h2>
 <ul>
 <li>⭐ currently working on <b>programming</b> and <b>network management</b></li>
@@ -60,7 +59,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=modorganizer-separatorgenerator&show_icons=true&count_private=true&theme=catppuccin_mocha" height="125px"/>
 </div>
 
-
 <h2> / stats / </h2>
 <div align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha" height="192px"/>
@@ -85,6 +83,5 @@
   </table>
 </div>
 
-<br/>
-<p>Styling inspired by <a href="https://github.com/zillastar">zillastar</a>'s profile</p>
+<br/><p>Styling inspired by <a href="https://github.com/zillastar">zillastar</a>'s profile</p>
 
