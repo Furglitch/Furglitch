@@ -55,8 +55,8 @@
 
 <h2> / top projects / </h2>
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=saucehunter&show_icons=true&count_private=true&theme=catppuccin_mocha">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&1&repo=furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=saucehunter&show_icons=true&count_private=true&theme=catppuccin_mocha">
 </div>
 
 <h2> / stats / </h2>

@@ -21,24 +21,23 @@ jobs:
         run: |
           curl -s -H "Authorization: token $GITHUB_TOKEN" \
           "https://api.github.com/users/Furglitch/repos?sort=stars&per_page=25" > .github/output/repos.json
+          cat .github/output/repos.json
 
       - name: Apply blacklist
         run: |
           BLACKLIST=$(cat .github/repo-blacklist.txt | tr '\n' '|')
           jq "[.[] | select(.name | test(\"^(${BLACKLIST})$\") | not)]" .github/output/repos.json > .github/output/filtered_repos.json
+          cat .github/output/filtered_repos.json
 
       - name: Update README
         run: |
           REPO1=$(jq -r '.[0].name' .github/output/filtered_repos.json)
           REPO2=$(jq -r '.[1].name' .github/output/filtered_repos.json)
-          sed -i "0,/repo=.*&show/{s|repo=.*&show|repo=$REPO1&show|}" README.md
-          sed -i "0,/repo=.*&show/{s|repo=.*&show|repo=$REPO2&show|}" README.md
-
-      - name: Debugging
-        run: |
-          cat .github/output/filtered_repos.json
           echo "REPO1: $REPO1"
           echo "REPO2: $REPO2"
+          sed -i "s/\(1&repo=\)[^&]*\(&show_icons=true\)/\1$REPO1\2/" README.md
+          sed -i "s/\(2&repo=\)[^&]*\(&show_icons=true\)/\1$REPO2\2/" README.md
+          cat README.md
 
       - name: Commit changes
         run: |
