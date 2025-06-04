@@ -55,8 +55,8 @@
 
 <h2> / top projects / </h2>
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha" height="125px"/>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=saucehunter&show_icons=true&count_private=true&theme=catppuccin_mocha" height="125px"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=modorganizer2-linux-installer
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&repo=modorganizer2-linux-installer
 </div>
 
 <h2> / stats / </h2>
