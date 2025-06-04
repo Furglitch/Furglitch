@@ -31,8 +31,8 @@ jobs:
         run: |
           REPO1=$(jq -r '.[0].name' .github/output/filtered_repos.json)
           REPO2=$(jq -r '.[1].name' .github/output/filtered_repos.json)
-          sed -i "s|repo=.*|repo=$REPO1|" README.md
-          sed -i "s|repo=.*|repo=$REPO2|" README.md
+          sed -i "s|repo=.*&show|repo=$REPO1&show|" README.md
+          sed -i "s|repo=.*&show|repo=$REPO2&show|" README.md
 
       - name: Commit changes
         run: |
