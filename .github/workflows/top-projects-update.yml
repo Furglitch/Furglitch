@@ -3,7 +3,7 @@ name: top-projects-update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Midnight UTC
+    - cron: '0 5 */3 * *' # 5am UTC, midnight local (CST), every 3 days
   push:
     branches: [ "main" ]
 
