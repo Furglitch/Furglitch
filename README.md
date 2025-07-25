@@ -55,10 +55,10 @@
 
 <h2> / top projects / </h2>
 <div align="center">
-  <a href="https://github.com/Furglitch/packwiz">
+  <a href="https://github.com/Furglitch/packwiz?1">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&1&repo=packwiz&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
   </a>
-  <a href="https://github.com/Furglitch/ModOrganizer-SeparatorGenerator">
+  <a href="https://github.com/Furglitch/ModOrganizer-SeparatorGenerator?2">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=ModOrganizer-SeparatorGenerator&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
   </a>
 </div>
