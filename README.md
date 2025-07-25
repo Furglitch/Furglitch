@@ -55,8 +55,12 @@
 
 <h2> / top projects / </h2>
 <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&1&repo=modorganizer2-linux-installer&show_icons=true&count_private=true&theme=catppuccin_mocha">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=ModOrganizer-SeparatorGenerator&show_icons=true&count_private=true&theme=catppuccin_mocha">
+  <a href="https://github.com/Furglitch/packwiz">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&1&repo=packwiz&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
+  </a>
+  <a href="https://github.com/Furglitch/ModOrganizer-SeparatorGenerator">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=ModOrganizer-SeparatorGenerator&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
+  </a>
 </div>
 
 <h2> / stats / </h2>
