@@ -36,6 +36,8 @@ jobs:
           REPO2=$(jq -r '.[1].name' .github/output/filtered_repos.json)
           echo "REPO1: $REPO1"
           echo "REPO2: $REPO2"
+          sed -i "s|Furglitch/[^?]*?1|Furglitch/$REPO1?1|g" README.md
+          sed -i "s|Furglitch/[^?]*?2|Furglitch/$REPO2?2|g" README.md
           sed -i "s/\(1&repo=\)[^&]*\(&show_icons=true\)/\1$REPO1\2/" README.md
           sed -i "s/\(2&repo=\)[^&]*\(&show_icons=true\)/\1$REPO2\2/" README.md
           cat README.md
