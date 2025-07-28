@@ -58,8 +58,8 @@
   <a href="https://github.com/Furglitch/modorganizer2-linux-installer?1">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&1&repo=modorganizer2-linux-installer&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
   </a>
-  <a href="https://github.com/Furglitch/ModOrganizer-SeparatorGenerator?2">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=ModOrganizer-SeparatorGenerator&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
+  <a href="https://github.com/Furglitch/modorganizer2-separator-generator?2">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=furglitch&2&repo=modorganizer2-separator-generator&show_icons=true&count_private=true&theme=catppuccin_mocha&description_lines_count=2">
   </a>
 </div>
 
