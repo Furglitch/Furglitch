@@ -1,9 +1,6 @@
 <p align="center"><img src="header.png" alt="Hi! I'm Sam, aka Furglitch (there's supposed to be a picture here)"></p>
 <div>
 
-> $${\color{red}AFK}$$<br/>
-> I'm currently out of the country for the next 2 weeks (returning November 3rd) and will be unavailable to do any programming or issue resolution.
-
 <h2> / about me / </h2>
 <ul>
 <li>⭐ currently working on <b>programming</b> and <b>network management</b></li>
