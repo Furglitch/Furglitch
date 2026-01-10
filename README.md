@@ -39,6 +39,17 @@
     <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,sh-nginx-proxy,manager,sh-plex,sh-sonarr,sh-radarr,sh-vaultwarden,sh-nextcloud,sh-mediawiki,sh-mealie,sh-pterodactyl"/>
   </p>
 
+<h2> / top projects / </h2>
+
+  <p align="center">
+    <a href="https://github.com/Furglitch/modorganizer2-linux-installer?1">
+      <img align="center" src="./cards/project-1.svg" width="400" />
+    </a>
+    <a href="https://github.com/Furglitch/modorganizer2-separator-generator?2">
+      <img align="center" src="./cards/project-2.svg" width="400" />
+    </a>
+  </p>
+
 <h2>/ stats /</h2>
 
   <p align="center">
