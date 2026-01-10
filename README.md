@@ -11,12 +11,14 @@
 </summary> </ul> </div>
 
 
-<img src="https://views.igorkowalczyk.dev/api/badge/furglitch?style=flat&color=89dceb&labelColor=313244&label=Profile%20Views" alt="Mod Organizer 2 Linux Installer Logo" align="right" style="padding-right:20px;" />
+<img src="https://views.igorkowalczyk.dev/api/badge/furglitch?style=flat&color=89dceb&labelColor=313244&label=Profile%20Views" alt="Mod Organizer 2 Linux Installer Logo" align="right" style="padding-right:20px; padding-top:30px;" />
 
-## / about me /
-- 🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering
-- 🌐 linux user and open-source advocate; believe in the power of community-driven software
-- 🛠️ currently tinkering with: [MO2-LINT](https://github.com/furglitch/modorganizer2-linux-installer) and [Vending Block: Restocked](https://github.com/furglitch/vending-block)
-- 📜 no degrees or certs; all hands-on learning, trial, error, and a bit of stubbornness
-- 🐍 python, ☕ java, and 🐚 bash are my go-to languages for making things work (mostly. sometimes.)
-- 🎮 gamer at heart; you’ll catch me mostly lost in fallout, cyberpunk, or minecraft
+<h2>/ about me /</h2>
+<ul>
+<li>🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering</li>
+<li>🌐 linux user and open-source advocate; believe in the power of community-driven software</li>
+<li>🛠️ currently tinkering with: [MO2-LINT](https://github.com/furglitch/modorganizer2-linux-installer) and [Vending Block: Restocked](https://github.com/furglitch/vending-block)</li>
+<li>📜 no degrees or certs; all hands-on learning, trial, error, and a bit of stubbornness</li>
+<li>🐍 python, ☕ java, and 🐚 bash are my go-to languages for making things work (mostly. sometimes.)</li>
+<li>🎮 gamer at heart; you’ll catch me mostly lost in fallout, cyberpunk, or minecraft</li>
+</ul>
