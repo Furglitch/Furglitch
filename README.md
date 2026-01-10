@@ -53,6 +53,6 @@
 <h2>/ stats /</h2>
 
   <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha" height="200"/>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furglitch&hide=html,tex,batchfile&theme=catppuccin_mocha&langs_count=3" height="200"/>
+    <img align="center" src="./cards/stats.svg" height="200"/>
+    <img align="center" src="./cards/langs.svg" height="200"/>
   </p>
