@@ -10,6 +10,9 @@
 	</h1>
 </summary> </ul> </div>
 
+
+<img src="https://views.igorkowalczyk.dev/api/badge/furglitch?style=flat&color=89dceb&labelColor=313244&label=Profile%20Views" alt="Mod Organizer 2 Linux Installer Logo" align="right" style="padding-right:20px;" />
+
 ## / about me /
 - 🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering
 - 🌐 linux user and open-source advocate; believe in the power of community-driven software
