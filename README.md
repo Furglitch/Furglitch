@@ -9,3 +9,11 @@
 		</picture>
 	</h1>
 </summary> </ul> </div>
+
+## / about me /
+- 🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering
+- 🌐 linux user and open-source advocate; believe in the power of community-driven software
+- 🛠️ currently tinkering with: [MO2-LINT](https://github.com/furglitch/modorganizer2-linux-installer) and [Vending Block: Restocked](https://github.com/furglitch/vending-block)
+- 📜 no degrees or certs; all hands-on learning, trial, error, and a bit of stubbornness
+- 🐍 python, ☕ java, and 🐚 bash are my go-to languages for making things work (mostly. sometimes.)
+- 🎮 gamer at heart; you’ll catch me mostly lost in fallout, cyberpunk, or minecraft
