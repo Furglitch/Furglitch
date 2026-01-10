@@ -41,4 +41,9 @@
     <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,sh-nginx-proxy,manager,sh-plex,sh-sonarr,sh-radarr,sh-vaultwarden,sh-nextcloud,sh-mediawiki,sh-mealie,sh-pterodactyl"/>
   </p>
 
-  
+<h2>/ stats /</h2>
+
+  <p align="center">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Furglitch&show_icons=true&count_private=true&theme=catppuccin_mocha" height="200"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furglitch&hide=html,tex,batchfile&theme=catppuccin_mocha&langs_count=3" height="200"/>
+  </p>
