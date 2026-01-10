@@ -1,0 +1,54 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+      
+      - name: Fetch top repositories
+        id: fetch_top
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TOP_REPOS=$(curl -s "https://api.github.com/users/furglitch/repos?per_page=100" | jq 'sort_by(.stargazers_count) | reverse | .[] | select(.fork | not) | select(.archived | not)' )
+          REPO_1=$(echo "$TOP_REPOS" | jq -r '.[0].name')
+          REPO_2=$(echo "$TOP_REPOS" | jq -r '.[1].name')
+
+      - name: Generate Top Project \#1 Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=furglitch&repo=${{ steps.fetch_top.outputs.REPO_1 }}&show_icons=true&theme=catppuccin_mocha&description_lines_count=2
+          path: cards/project-1.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Project \#2 Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=furglitch&repo=${{ steps.fetch_top.outputs.REPO_2 }}&show_icons=true&theme=catppuccin_mocha&description_lines_count=2
+          path: cards/project-2.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add cards/*.svg
+          git commit -m "Update Top Projects cards" || echo "No changes to commit"
+          git push
