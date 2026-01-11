@@ -42,10 +42,10 @@
 <h2> / top projects / </h2>
 
   <p align="center">
-    <a href="https://github.com/Furglitch/testing?1">
+    <a href="https://github.com/Furglitch/modorganizer2-linux-installer?1">
       <img align="center" src="assets/cards/project-1.svg" width="400" />
     </a>
-    <a href="https://github.com/Furglitch/123?2">
+    <a href="https://github.com/Furglitch/modorganizer2-separator-generator?2">
       <img align="center" src="assets/cards/project-2.svg" width="400" />
     </a>
   </p>
