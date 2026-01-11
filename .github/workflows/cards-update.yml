@@ -41,9 +41,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TOP_REPOS=$(curl -s "https://api.github.com/users/furglitch/repos?per_page=100" | jq 'sort_by(.stargazers_count) | reverse | .[] | select(.fork | not) | select(.archived | not)' )
+          TOP_REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/users/${{ github.repository_owner }}/repos?per_page=100" \
+            | jq 'sort_by(.stargazers_count) | reverse | map(select((.fork | not) and (.archived | not)))')
           REPO_1=$(echo "$TOP_REPOS" | jq -r '.[0].name')
           REPO_2=$(echo "$TOP_REPOS" | jq -r '.[1].name')
+          echo "REPO_1=$REPO_1" >> $GITHUB_OUTPUT
+          echo "REPO_2=$REPO_2" >> $GITHUB_OUTPUT
 
       - name: Generate Top Project \#1 Card
         uses: readme-tools/github-readme-stats-action@v1
