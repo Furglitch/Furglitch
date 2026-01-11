@@ -1,0 +1,45 @@
+name: Generate Duck Images
+
+on:
+  push:
+    paths:
+      - 'ducks/**'
+      - 'ducks.py'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install Pillow PyYAML
+      
+      - name: Download Ubuntu font
+        run: |
+          mkdir -p fonts
+          wget https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip
+          unzip 0cef8205-ubuntu-font-family-0.83.zip -d fonts/
+          mv fonts/ubuntu-font-family-0.83/*.ttf fonts/
+          rm -rf fonts/ubuntu-font-family-0.83
+          rm 0cef8205-ubuntu-font-family-0.83.zip
+      
+      - name: Run script
+        run: |
+          python ducks.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ducks/output/*.png
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update duck images" && git push)
