@@ -64,10 +64,22 @@ jobs:
           path: assets/cards/project-2.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Update README top project links
+        if: ${{ always() }}
+        env:
+          REPO_1: ${{ steps.fetch_top.outputs.REPO_1 }}
+          REPO_2: ${{ steps.fetch_top.outputs.REPO_2 }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          # Replace hrefs for the two top project anchors (keep existing ?1 and ?2 query params)
+          sed -E -i 's|href="https://github.com/'"$OWNER"'/[^"]*\?1"|href="https://github.com/'"$OWNER"'/'"$REPO_1"'?1"|' README.md || true
+          sed -E -i 's|href="https://github.com/'"$OWNER"'/[^"]*\?2"|href="https://github.com/'"$OWNER"'/'"$REPO_2"'?2"|' README.md || true
+          git add README.md || true
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/cards/*.svg
+          git add assets/cards/*.svg README.md
           git commit -m "chore: update cards" || echo "No changes to commit"
           git push
