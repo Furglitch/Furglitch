@@ -26,17 +26,17 @@
 
   <h3 align="center">/ languages /</h3> <!-- Python, Java, Bash, HTML, MD -->
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=python,java,bash,html,md"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=python,java,bash,html,md" title="Languages: Python, Java, Bash, HTML, Markdown "/>
   </p>
 
   <h3 align="center">/ software /</h3> <!-- Linux, Arch, VSCode, Git, Discord-->
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=linux,arch,vscode,git,kitty,steam,discord,telegram,obsidian,orcaslicer"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=linux,arch,vscode,git,kitty,steam,discord,telegram,obsidian,orcaslicer" title="Software: Linux, ArchLinux, VSCode, Git, Kitty, Steam, Discord, Telegram, Obsidian, OrcaSlicer"/>
   </p>
 
   <h3 align="center">/ homelab /</h3> <!-- Proxmox, Docker, -->
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,sh-nginx-proxy,manager,sh-plex,sh-sonarr,sh-radarr,sh-vaultwarden,sh-nextcloud,sh-mediawiki,sh-mealie,sh-pterodactyl"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,sh-nginx-proxy,manager,sh-plex,sh-sonarr,sh-radarr,sh-vaultwarden,sh-nextcloud,sh-mediawiki,sh-mealie,sh-pterodactyl" title="Homelab: Proxmox, TrueNAS Scale, Docker, Nginx Proxy Manager, Plex, Sonarr, Radarr, Vaultwarden, Nextcloud, MediaWiki, Mealie, Pterodactyl"/>
   </p>
 
 <h2> / top projects / </h2>
