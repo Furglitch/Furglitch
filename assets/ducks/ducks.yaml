@@ -7,3 +7,5 @@ ducks:
     name: "Low Poly"
   - file: skyrim-alduin.png
     name: "Alduin\n(TESV: Skyrim)"
+  - file: batman.png
+    name: "Batman"
