@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,5 +45,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add assets/ducks/output/*.png
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update duck images" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git fetch origin main
+            git pull --rebase origin main || (echo "Rebase failed; aborting push" && exit 1)
+            git add assets/ducks/output/*.png
+            git commit -m "chore: update duck images"
+            git push origin HEAD:main
+          fi
