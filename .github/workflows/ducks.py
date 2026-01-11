@@ -108,7 +108,7 @@ def create_composite_image(ducks_config, ducks_dir, font, text_color, stroke_col
 def main():
     ducks_dir = 'assets/ducks'
     yaml_file = 'assets/ducks/ducks.yaml'
-    fonts_dir = 'assets/fonts'
+    fonts_dir = os.environ.get('FONT_DIR', 'assets/fonts')
     output_dir = 'assets/ducks/output'
     
     ubuntu_font_names = ['Ubuntu-Regular.ttf', 'Ubuntu-R.ttf', 'Ubuntu.ttf']

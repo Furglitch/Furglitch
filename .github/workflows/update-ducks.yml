@@ -30,19 +30,20 @@ jobs:
       
       - name: Download Ubuntu font
         run: |
-          mkdir -p assets/fonts
+          FONT_TMP="${RUNNER_TEMP}/fonts"
+          mkdir -p "$FONT_TMP"
           # Try wget with short connect timeout and single try; fall back to curl if wget fails
           wget --connect-timeout=10 --tries=1 --timeout=20 https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip -O ubuntu-font.zip || \
             curl --connect-timeout 10 --max-time 30 -fSL https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip -o ubuntu-font.zip
-          unzip ubuntu-font.zip -d assets/fonts/
-          mv assets/fonts/ubuntu-font-family-0.83/*.ttf assets/fonts/
-          rm -rf assets/fonts/ubuntu-font-family-0.83
-          rm -rf assets/fonts/__MACOSX
+          unzip ubuntu-font.zip -d "$FONT_TMP"
+          mv "$FONT_TMP"/ubuntu-font-family-0.83/*.ttf "$FONT_TMP"/ || true
+          rm -rf "$FONT_TMP"/ubuntu-font-family-0.83
+          rm -rf "$FONT_TMP"/__MACOSX
           rm ubuntu-font.zip
       
       - name: Run script
         run: |
-          python .github/workflows/ducks.py
+          FONT_DIR="${RUNNER_TEMP}/fonts" python .github/workflows/ducks.py
       
       - name: Commit and push changes
         run: |
