@@ -56,3 +56,13 @@
     <img align="center" src="./cards/stats.svg" height="200"/>
     <img align="center" src="./cards/langs.svg" height="200"/>
   </p>
+
+<h2>/ ducks /</h2>
+
+  <p align="center">
+		<picture>
+			<source media="(prefers-color-scheme: dark)" srcset="ducks/output/ducks-dark.png">
+			<source media="(prefers-color-scheme: light)" srcset="ducks/output/ducks-light.png">
+			<img alt="Profile banner" src="ducks/output/ducks-light.png" width="auto">
+		</picture>
+  </p>

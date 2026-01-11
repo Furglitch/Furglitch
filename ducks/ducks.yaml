@@ -1,0 +1,9 @@
+ducks:
+  - file: delftware.png
+    name: "Delftware"
+  - file: fallout-t51.png
+    name: "T-51 Power Armor\n(Fallout)"
+  - file: lowpoly.png
+    name: "Low Poly"
+  - file: skyrim-alduin.png
+    name: "Alduin\n(TESV: Skyrim)"
