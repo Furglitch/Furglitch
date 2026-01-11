@@ -3,8 +3,9 @@ name: Generate Duck Images
 on:
   push:
     paths:
-      - 'ducks/**'
-      - 'ducks.py'
+      - 'assets/ducks/**'
+      - '!assets/ducks/output/*'
+      - '.github/workflows/ducks.py'
   workflow_dispatch:
 
 jobs:
@@ -26,20 +27,20 @@ jobs:
       
       - name: Download Ubuntu font
         run: |
-          mkdir -p fonts
+          mkdir -p assets/fonts
           wget https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip
-          unzip 0cef8205-ubuntu-font-family-0.83.zip -d fonts/
-          mv fonts/ubuntu-font-family-0.83/*.ttf fonts/
-          rm -rf fonts/ubuntu-font-family-0.83
+          unzip 0cef8205-ubuntu-font-family-0.83.zip -d assets/fonts/
+          mv assets/fonts/ubuntu-font-family-0.83/*.ttf assets/fonts/
+          rm -rf assets/fonts/ubuntu-font-family-0.83
           rm 0cef8205-ubuntu-font-family-0.83.zip
       
       - name: Run script
         run: |
-          python ducks.py
+          python .github/workflows/ducks.py
       
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ducks/output/*.png
+          git add assets/ducks/output/*.png
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update duck images" && git push)

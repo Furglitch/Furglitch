@@ -2,9 +2,9 @@
 <div id="user-content-toc" align="center"> <ul align="center" style="list-style: none;"> <summary>
 	<h1>
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="header-dark.png">
-			<source media="(prefers-color-scheme: light)" srcset="header-light.png">
-			<img alt="Profile banner" src="header-light.png">
+			<source media="(prefers-color-scheme: dark)" srcset="assets/headers/header-dark.png">
+			<source media="(prefers-color-scheme: light)" srcset="assets/headers/header-light.png">
+			<img alt="Profile banner" src="assets/headers/header-light.png">
       <!-- header style ib: https://durgeshsamariya.github.io/awesome-github-profile-readme-templates/#/templates/zillastar -->
 		</picture>
 	</h1>
@@ -43,26 +43,26 @@
 
   <p align="center">
     <a href="https://github.com/Furglitch/modorganizer2-linux-installer?1">
-      <img align="center" src="./cards/project-1.svg" width="400" />
+      <img align="center" src="assets/cards/project-1.svg" width="400" />
     </a>
     <a href="https://github.com/Furglitch/modorganizer2-separator-generator?2">
-      <img align="center" src="./cards/project-2.svg" width="400" />
+      <img align="center" src="assets/cards/project-2.svg" width="400" />
     </a>
   </p>
 
 <h2>/ stats /</h2>
 
   <p align="center">
-    <img align="center" src="./cards/stats.svg" height="200"/>
-    <img align="center" src="./cards/langs.svg" height="200"/>
+    <img align="center" src="assets/cards/stats.svg" height="200"/>
+    <img align="center" src="assets/cards/langs.svg" height="200"/>
   </p>
 
 <h2>/ ducks /</h2>
 
   <p align="center">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="ducks/output/ducks-dark.png">
-			<source media="(prefers-color-scheme: light)" srcset="ducks/output/ducks-light.png">
-			<img alt="Profile banner" src="ducks/output/ducks-light.png" width="auto">
+			<source media="(prefers-color-scheme: dark)" srcset="assets/ducks/output/ducks-dark.png">
+			<source media="(prefers-color-scheme: light)" srcset="assets/ducks/output/ducks-light.png">
+			<img alt="Profile banner" src="assets/ducks/output/ducks-light.png" width="auto">
 		</picture>
   </p>
