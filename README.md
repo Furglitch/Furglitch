@@ -36,7 +36,7 @@
 
   <h3 align="center">/ homelab /</h3> <!-- Proxmox, Docker, -->
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,sh-nginx-proxy,manager,sh-plex,sh-sonarr,sh-radarr,sh-vaultwarden,sh-nextcloud,sh-mediawiki,sh-mealie,sh-pterodactyl" title="Homelab: Proxmox, TrueNAS Scale, Docker, Nginx Proxy Manager, Plex, Sonarr, Radarr, Vaultwarden, Nextcloud, MediaWiki, Mealie, Pterodactyl"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,nginx,plex,sonarr,radarr" title="Homelab: Proxmox, TrueNAS Scale, Docker, Nginx Proxy Manager, Plex, Sonarr, Radarr"/>
   </p>
 
 <h2> / top projects / </h2>
