@@ -25,7 +25,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&count_private=true&theme=catppuccin_mocha
-          path: cards/stats.svg
+          path: assets/cards/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate languages card
@@ -33,7 +33,7 @@ jobs:
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&langs_count=3
-          path: cards/langs.svg
+          path: assets/cards/langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Fetch top repositories
