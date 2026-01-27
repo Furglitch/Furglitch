@@ -11,7 +11,7 @@
 </summary> </ul> </div>
 
 
-<h2>/ about me / <img src="https://views.igorkowalczyk.dev/api/badge/furglitch?style=flat&color=89dceb&labelColor=313244&label=Profile%20Views" alt="Mod Organizer 2 Linux Installer Logo" align="right" style="padding-right:20px;"/></h2>
+<h2>/ about me / <img src="https://komarev.com/ghpvc/?username=furglitch&color=89dceb&labelcolor=313244&style=flat-square&abbreviated=true" alt="Profile View Counter" align="right" style="padding-right:20px;"/></h2>
 
 <ul>
 <li>🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering</li>
