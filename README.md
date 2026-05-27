@@ -45,7 +45,7 @@
     <a href="https://github.com/Furglitch/modorganizer2-linux-installer?1">
       <img align="center" src="assets/cards/project-1.svg" width="400" />
     </a>
-    <a href="https://github.com/Furglitch/modorganizer2-separator-generator?2">
+    <a href="https://github.com/Furglitch/modorganizer2-nxm-collection-dl?2">
       <img align="center" src="assets/cards/project-2.svg" width="400" />
     </a>
   </p>
