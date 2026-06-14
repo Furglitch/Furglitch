@@ -16,7 +16,7 @@
 <ul>
 <li>🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering</li>
 <li>🌐 linux user and open-source advocate; believe in the power of community-driven software</li>
-<li>🛠️ currently tinkering with: <a href="https://github.com/furglitch/modorganizer2-linux-installer"> MO2-LINT</a> and <a href="https://github.com/furglitch/vending-block">Vending Block: Restocked</a></li>
+<li>🛠️ currently tinkering with: <a href="https://github.com/furglitch/modorganizer2-linux-installer"> MO2-LINT</a> and <a href="https://github.com/furglitch/vendingblock">Vending Block: Restocked</a></li>
 <li>📜 no degrees or certs; all hands-on learning, trial, error, and a bit of stubbornness</li>
 <li>🐍 python, ☕ java, and 🐚 bash are my go-to languages for making things work (mostly. sometimes.)</li>
 <li>🎮 gamer at heart; you’ll catch me mostly lost in fallout, cyberpunk, or minecraft</li>
@@ -24,19 +24,19 @@
 
 <h2>/ tech stack /</h2>
 
-  <h3 align="center">/ languages /</h3> <!-- Python, Java, Bash, HTML, MD -->
+  <h3 align="center">/ languages /</h3>
   <p align="center">
     <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=python,java,bash,html,md" title="Languages: Python, Java, Bash, HTML, Markdown "/>
   </p>
 
-  <h3 align="center">/ software /</h3> <!-- Linux, Arch, VSCode, Git, Discord-->
+  <h3 align="center">/ software /</h3>
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=linux,arch,vscode,git,kitty,steam,discord,telegram,obsidian,orcaslicer" title="Software: Linux, ArchLinux, VSCode, Git, Kitty, Steam, Discord, Telegram, Obsidian, OrcaSlicer"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=linux,arch,vscode,git,ghostty" title="Software: Linux, ArchLinux, VSCode, git, ghostty"/>
   </p>
 
-  <h3 align="center">/ homelab /</h3> <!-- Proxmox, Docker, -->
+  <h3 align="center">/ homelab /</h3>
   <p align="center">
-    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,truenasscale,docker,nginx,plex,sonarr,radarr" title="Homelab: Proxmox, TrueNAS Scale, Docker, Nginx Proxy Manager, Plex, Sonarr, Radarr"/>
+    <img width="500px" height="50px" src="https://skills.syvixor.com/api/icons?perline=10&i=proxmox,homeassistant,truenasscale,docker,nginx,plex,sonarr,radarr" title="Homelab: Proxmox, Home Assistant, TrueNAS Scale, Docker, nginx Proxy Manager, Plex, Sonarr, Radarr"/>
   </p>
 
 <h2> / top projects / </h2>
