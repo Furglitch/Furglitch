@@ -16,7 +16,7 @@
 <ul>
 <li>🖥️ tech enthusiast and hobbyist developer somewhere between novice and intermediate, with a love for tinkering</li>
 <li>🌐 linux user and open-source advocate; believe in the power of community-driven software</li>
-<li>🛠️ currently tinkering with: <a href="https://github.com/furglitch/modorganizer2-linux-installer"> MO2-LINT</a> and <a href="https://github.com/furglitch/vendingblock">Vending Block: Restocked</a></li>
+<li>🛠️ currently tinkering with: <a href="https://github.com/furglitch/modorganizer2-linux-installer"> MO2-LINT</a> and <a href="https://github.com/furglitch/mc-mod-vendingblock">Vending Block: Restocked</a></li>
 <li>📜 no degrees or certs; all hands-on learning, trial, error, and a bit of stubbornness</li>
 <li>🐍 python, ☕ java, and 🐚 bash are my go-to languages for making things work (mostly. sometimes.)</li>
 <li>🎮 gamer at heart; you’ll catch me mostly lost in fallout, cyberpunk, or minecraft</li>
