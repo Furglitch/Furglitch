@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Furglitch&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 1770, Total Commits  (last year) : 1653, Total PRs: 59, Total Issues: 48, Contributed to (last year): 18</desc>
+        <desc id="descId">Total Stars Earned: 1770, Total Commits  (last year) : 1670, Total PRs: 60, Total Issues: 48, Contributed to (last year): 18</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 63.484165973673264;
+        stroke-dashoffset: 63.082670075833555;
       }
     }
   
@@ -180,7 +180,7 @@
         x="204.01"
         y="12.5"
         data-testid="prs"
-      >59</text>
+      >60</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
